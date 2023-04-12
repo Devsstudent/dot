@@ -95,9 +95,7 @@ static void add(Contact phone_book[8])
 static void	output_name(std::string str)
 {
 	size_t	size;
-	int		z;
 
-	z = 0;
 	size = str.size();
 	if (size >= 10)
 	{
@@ -127,6 +125,11 @@ static void	search(Contact phone_book[8])
 	i = 1;
 	str = "";
 	j = get_index_phonebook(phone_book);
+	std::cout << "|";
+	std::cout << std::setw(10) << "index" << "|";
+	std::cout << std::setw(10) << "first name"  << "|";
+	std::cout << std::setw(10) << "last name" << "|";
+	std::cout << std::setw(10) << "Nickname" << "|" << std::endl;
 	while (i <= j)
 	{
 		std::cout << "|";
