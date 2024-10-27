@@ -135,5 +135,10 @@ __fzf_cd__() {
 }
 bind -x '"\C-t": __fzf_cd__'
 
+# Enable Fish-like auto-suggestions
+source ~/.bash-suggest/bash-suggest.sh
+
 # Optional: Starship prompt (for fancy prompt)
 eval "$(starship init bash)"
+
+export PATH="$PATH:/opt/nvim-linux64/bin"
