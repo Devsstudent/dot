@@ -2,11 +2,12 @@
   "extras": [
     "lazyvim.plugins.extras.editor.fzf",
     "lazyvim.plugins.extras.lang.docker",
-    "lazyvim.plugins.extras.lang.go",
     "lazyvim.plugins.extras.lang.rust",
     "lazyvim.plugins.extras.lang.tex",
     "lazyvim.plugins.extras.lang.yaml",
     "lazyvim.plugins.extras.linting.eslint",
+    "plugins.extras.coding.auto-complete",
+    "plugins.extras.coding.emoji",
     "plugins.extras.colorschemes.everforest",
     "plugins.extras.editor.fzf-lua",
     "plugins.extras.editor.neo-tree",
