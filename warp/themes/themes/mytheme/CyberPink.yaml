@@ -1,0 +1,27 @@
+name: Cyber Pink
+accent: "#9B5DE5"
+background: "#ebddf4"
+foreground: "#010b17"
+details: "darker"
+terminal_colors:
+  normal:
+    black: "#0D0D0D"
+    red: "#ff3a3a"
+    green: "#313715"
+    yellow: "#6632cd"
+    blue: "#1376f8"
+    magenta: "#ff5dd4"
+    cyan: "#D26C5C"
+    white: "#15fca2"
+  bright:
+    black: "#0D0D0D"
+    red: "#ff54b0"
+    green: "#313715"
+    yellow: "#6632cd"
+    blue: "#378dfe"
+    magenta: "#ff5dd4"
+    cyan: "#D26C5C"
+    white: "#5ffbbe"
+background_image:   
+  path: "/home/hanako/.local/share/warp-terminal/themes/mytheme/CyberPink.png"
+  opacity: 30
