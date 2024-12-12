@@ -16,3 +16,5 @@ brew upgrade
 curl -sS https://starship.rs/install.sh | sh
 
 mkdir -p ~/.config && touch ~/.config/starship.toml
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
